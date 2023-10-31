@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="___FILEBASENAME___ViewController" customModule="Lepgo" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="___FILEBASENAME___ViewController" customModule="Mega_Mall" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -18,17 +19,17 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yGc-bK-92B">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="872-Qt-ZrZ">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JaB-ff-2XQ" userLabel="container View">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="1663.6666666666667"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m8y-On-Pc1" userLabel="Container View">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="3854.6666666666665"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="I2x-sF-LnG">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="1663.6666666666667"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="yIy-LG-vaB">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="3854.6666666666665"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dtd-Fr-rgj">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="1663.6666666666667"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TIJ-Qw-Vms">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="3854.6666666666665"/>
                                             <mutableString key="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
@@ -47,9 +48,7 @@ doloremque. Quaerat provident commodi consectetur veniam similique ad
 earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
 fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
 suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
-totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
-quasi aliquam eligendi, placeat qui corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
 optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
@@ -67,9 +66,61 @@ doloremque. Quaerat provident commodi consectetur veniam similique ad
 earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
 fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
 suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam 
-totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam 
-quasi aliquam eligendi, placeat qui corporis!</mutableString>
+modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
+quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
+fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
+consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+doloremque. Quaerat provident commodi consectetur veniam similique ad 
+earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
+fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
+suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
+quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
+fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
+consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+doloremque. Quaerat provident commodi consectetur veniam similique ad 
+earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
+fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
+suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
+minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit 
+quibusdam sed amet tempora. Sit laborum ab, eius fugit doloribus tenetur 
+fugiat, temporibus enim commodi iusto libero magni deleniti quod quam 
+consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+doloremque. Quaerat provident commodi consectetur veniam similique ad 
+earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo 
+fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore 
+suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam </mutableString>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -79,32 +130,32 @@ quasi aliquam eligendi, placeat qui corporis!</mutableString>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
-                                <constraint firstItem="I2x-sF-LnG" firstAttribute="leading" secondItem="JaB-ff-2XQ" secondAttribute="leading" id="JnM-Md-s3l"/>
-                                <constraint firstAttribute="bottom" secondItem="I2x-sF-LnG" secondAttribute="bottom" id="OIg-yl-OeS"/>
-                                <constraint firstItem="I2x-sF-LnG" firstAttribute="top" secondItem="JaB-ff-2XQ" secondAttribute="top" id="Uot-7y-arC"/>
-                                <constraint firstAttribute="trailing" secondItem="I2x-sF-LnG" secondAttribute="trailing" id="WgX-Xf-BlZ"/>
+                                <constraint firstAttribute="bottom" secondItem="yIy-LG-vaB" secondAttribute="bottom" id="2Op-Ov-YVe"/>
+                                <constraint firstItem="yIy-LG-vaB" firstAttribute="top" secondItem="m8y-On-Pc1" secondAttribute="top" id="Fat-pb-P60"/>
+                                <constraint firstItem="yIy-LG-vaB" firstAttribute="leading" secondItem="m8y-On-Pc1" secondAttribute="leading" id="dEK-35-EEP"/>
+                                <constraint firstAttribute="trailing" secondItem="yIy-LG-vaB" secondAttribute="trailing" id="oaG-Jh-8Dd"/>
                             </constraints>
                         </view>
                     </subviews>
                     <constraints>
-                        <constraint firstItem="JaB-ff-2XQ" firstAttribute="bottom" secondItem="bOZ-HR-7SM" secondAttribute="bottom" id="3gF-IP-7v3"/>
-                        <constraint firstItem="JaB-ff-2XQ" firstAttribute="top" secondItem="bOZ-HR-7SM" secondAttribute="top" id="e6u-fX-7sG"/>
-                        <constraint firstItem="JaB-ff-2XQ" firstAttribute="leading" secondItem="bOZ-HR-7SM" secondAttribute="leading" id="edN-iu-zdg"/>
-                        <constraint firstItem="JaB-ff-2XQ" firstAttribute="trailing" secondItem="bOZ-HR-7SM" secondAttribute="trailing" id="s37-x6-h8Q"/>
+                        <constraint firstItem="m8y-On-Pc1" firstAttribute="bottom" secondItem="kda-AR-794" secondAttribute="bottom" id="3OT-Cb-YkZ"/>
+                        <constraint firstItem="m8y-On-Pc1" firstAttribute="trailing" secondItem="kda-AR-794" secondAttribute="trailing" id="VnQ-a6-kDy"/>
+                        <constraint firstItem="m8y-On-Pc1" firstAttribute="top" secondItem="kda-AR-794" secondAttribute="top" id="YOy-Dw-d3F"/>
+                        <constraint firstItem="m8y-On-Pc1" firstAttribute="leading" secondItem="kda-AR-794" secondAttribute="leading" id="vgK-UQ-Dwj"/>
                     </constraints>
-                    <viewLayoutGuide key="contentLayoutGuide" id="bOZ-HR-7SM"/>
-                    <viewLayoutGuide key="frameLayoutGuide" id="bcH-8A-FN4"/>
+                    <viewLayoutGuide key="contentLayoutGuide" id="kda-AR-794"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="dN4-nQ-bsT"/>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <constraints>
-                <constraint firstItem="JaB-ff-2XQ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="1fX-w1-cKf"/>
-                <constraint firstAttribute="trailing" secondItem="yGc-bK-92B" secondAttribute="trailing" id="8SN-rG-sEP"/>
-                <constraint firstItem="yGc-bK-92B" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HHi-82-J9r"/>
-                <constraint firstAttribute="bottom" secondItem="yGc-bK-92B" secondAttribute="bottom" id="K4H-aP-swh"/>
-                <constraint firstItem="yGc-bK-92B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="iRm-uK-sYf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="872-Qt-ZrZ" secondAttribute="trailing" id="4MD-xv-V6g"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="872-Qt-ZrZ" secondAttribute="bottom" id="Lwg-sV-wrf"/>
+                <constraint firstItem="872-Qt-ZrZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Oka-xl-aBC"/>
+                <constraint firstItem="m8y-On-Pc1" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="gk4-7W-wdd"/>
+                <constraint firstItem="872-Qt-ZrZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="zhU-f1-sjY"/>
             </constraints>
-            <point key="canvasLocation" x="88" y="21"/>
+            <point key="canvasLocation" x="26" y="21"/>
         </view>
     </objects>
     <resources>
