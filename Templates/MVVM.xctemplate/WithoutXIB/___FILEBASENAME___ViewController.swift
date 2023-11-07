@@ -4,10 +4,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     // MARK: Outlets
     
     //
-    // MARK: Properties
+    // MARK: - Properties
     private let viewModel: ___VARIABLE_productName___ViewModelType
     //
-    // MARK: Init
+    // MARK: - Init
     init(viewModel: ___VARIABLE_productName___ViewModelType) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -17,7 +17,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     //
-    // MARK: Lifecycle
+    // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViews()

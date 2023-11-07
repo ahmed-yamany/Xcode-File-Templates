@@ -57,26 +57,26 @@ extension ___FILEBASENAME___CollectionViewSection: CompositionalLayoutableSectio
     var width: CGFloat { 66 + spacing } // The width of each item in the section.
     var height: CGFloat { 80 } // The height of each item in the section.
     /// - Returns: The layout for an item within the group.
-    func itemLayoutInGroup() -> NSCollectionLayoutItem {
+    var itemLayoutInGroup: NSCollectionLayoutItem {
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(1))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         return item
     }
     ///  - Returns: The layout for a group within the section.
-    func groupLayoutInSection() -> NSCollectionLayoutGroup {
+    var groupLayoutInSection: NSCollectionLayoutGroup {
         let groupSize = NSCollectionLayoutSize(widthDimension: .absolute(width), heightDimension: .absolute(height))
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [itemLayoutInGroup()])
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [itemLayoutInGroup])
         // group.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: spacing, bottom: 0, trailing: 0)
         return group
     }
     /// Defines the layout for the entire section, including groups and supplementary views.
     func sectionLayout(at index: Int, layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection {
-        let section = NSCollectionLayoutSection(group: groupLayoutInSection())
+        let section = NSCollectionLayoutSection(group: groupLayoutInSection)
         // section.orthogonalScrollingBehavior = .continuous
         // section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: spacing, bottom: 0, trailing: spacing)
         // section.boundarySupplementaryItems = [topSupplementaryItem]
-        // let sectionBackground = NSCollectionLayoutDecorationItem.background(elementKind: DecorationViewType.identifier)
-        // section.decorationItems = [sectionBackground]
+        // let decorationItem = NSCollectionLayoutDecorationItem.background(elementKind: DecorationViewType.identifier)
+        // section.decorationItems = [decorationItem]
         return section
     }
 }
