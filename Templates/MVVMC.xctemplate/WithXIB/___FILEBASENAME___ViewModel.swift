@@ -1,9 +1,4 @@
-//
-//  SplashViewModel.swift
-//  Doctor-Appointment
-//
-//  Created by Ahmed Yamany on 11/11/2023.
-//
+//___FILEHEADER___
 
 import Foundation
 import Combine

@@ -1,22 +1,17 @@
-//
-//  SplashView.swift
-//  Doctor-Appointment
-//
-//  Created by Ahmed Yamany on 12/11/2023.
-//
+//___FILEHEADER___
 
 import UIKit
-import Extensions
-import CompositionalLayoutableSection
 
 class ___FILEBASENAMEASIDENTIFIER___: UIView {
     // MARK: IBOutlet
     //
     // MARK: - Properties
     let viewModel: ___VARIABLE_productName___ViewModel
+    let delegate: ___VARIABLE_productName___ViewDelegate
     // MARK: Init
-    init(viewModel: ___VARIABLE_productName___ViewModel) {
+    init(viewModel: ___VARIABLE_productName___ViewModel, delegate: ___VARIABLE_productName___ViewDelegate) {
         self.viewModel = viewModel
+        self.delegate = delegate
         super.init(frame: .infinite)
         loadNib()
         configureUI()

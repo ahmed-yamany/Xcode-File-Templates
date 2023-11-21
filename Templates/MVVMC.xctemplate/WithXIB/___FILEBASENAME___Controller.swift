@@ -1,15 +1,13 @@
-//
-//  SplashController.swift
-//  Doctor-Appointment
-//
-//  Created by Ahmed Yamany on 11/11/2023.
-//
+//___FILEHEADER___
 
 import UIKit
 
+protocol ___VARIABLE_productName___ViewDelegate {
+}
+//
 class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     // MARK: - View
-    lazy var ___VARIABLE_productName___View = ___VARIABLE_productName___View(viewModel: viewModel)
+    lazy var ___VARIABLE_productName___View = ___VARIABLE_productName___View(viewModel: viewModel, delegate: self)
     //
     // MARK: - Properties
     let viewModel = ___VARIABLE_productName___ViewModel()
@@ -20,6 +18,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         self.view = ___VARIABLE_productName___View
         handlerPrivates()
     }
+}
+//
+// MARK: - SignupViewDelegate
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName___ViewDelegate {
 }
 //
 // MARK: - Private Handlers
